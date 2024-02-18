@@ -1,0 +1,52 @@
+{
+  "Facebook": {
+    "Error": "Facebook",
+    "Profile": "https://facebook.com/{url}",
+    "Main": "https://facebook.com"
+  },
+  "Instagram": {
+    "Error": "Instagram",
+    "Profile": "https://instagram.com/user/{url}",
+    "Main": "https://instagram.com"
+  },
+  "Twitter": {
+    "Error": "Twitter",
+    "Profile": "https://twitter.com/{url}",
+    "Main": "https://twitter.com"
+  },
+  "LinkedIn": {
+    "Error": "LinkedIn",
+    "Profile": "https://linkedin.com/{url}",
+    "Main": "https://linkedin.com"
+  },
+  "YouTube": {
+    "Error": "YouTube",
+    "Profile": "https://youtube.com/{url}",
+    "Main": "https://youtube.com"
+  },
+  "GitHub": {
+    "Error": "GitHub",
+    "Profile": "https://github.com/{url}",
+    "Main": "https://github.com"
+  },
+  "Stack Overflow": {
+    "Error": "Stack Overflow",
+    "Profile": "https://stackoverflow.com/{url}",
+    "Main": "https://stackoverflow.com"
+  },
+  "TikTok": {
+    "Error": "TikTok",
+    "Profile": "https://tiktok.com/@{url}",
+    "Main": "https://tiktok.com"
+  },
+  "Pinterest": {
+    "Error": "Pinterest",
+    "Profile": "https://pinterest.com/{url}",
+    "Main": "https://pinterest.com"
+  },
+  "Snapchat": {
+    "Error": "Snapchat",
+    "Profile": "https://snapchat.com/add/{url}",
+    "Main": "https://snapchat.com"
+  }
+}
