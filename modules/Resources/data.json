@@ -14,18 +14,13 @@
     "Profile": "https://twitter.com/{url}",
     "Main": "https://twitter.com"
   },
-  "LinkedIn": {
-    "Error": "LinkedIn",
-    "Profile": "https://linkedin.com/{url}",
-    "Main": "https://linkedin.com"
-  },
   "YouTube": {
-    "Error": "YouTube",
-    "Profile": "https://youtube.com/{url}",
+    "Error": "404 Not Found",
+    "Profile": "https://youtube.com/@{url}",
     "Main": "https://youtube.com"
   },
   "GitHub": {
-    "Error": "GitHub",
+    "Error": "None",
     "Profile": "https://github.com/{url}",
     "Main": "https://github.com"
   },
@@ -40,7 +35,7 @@
     "Main": "https://tiktok.com"
   },
   "Pinterest": {
-    "Error": "Pinterest",
+    "Error": "",
     "Profile": "https://pinterest.com/{url}",
     "Main": "https://pinterest.com"
   },
