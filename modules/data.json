@@ -1,0 +1,7 @@
+{
+  "Facebook": {
+    "Error": "Facebook",
+    "Profile": "https://facebook.com/{url}",
+    "Main": "https://facebook.com"
+  }
+}
