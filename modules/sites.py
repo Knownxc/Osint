@@ -18,9 +18,7 @@ def check_profile(input):
         title_search = get_title_search(site)
         if not title_search:
             print(f"{site} - Not using title mode to search!")
-        elif title_tags == [] and check_error:
-            print(f"{site} - No Profile Found!")
-        elif any(check_error in tag.text.strip() for tag in title_tags):
+        elif title_tags == [] or any(check_error in tag.text.strip() for tag in title_tags):
             print(f"{site} - No Profile Found!")
         else:
             print(f"{site} - Profile Found: {link}")
