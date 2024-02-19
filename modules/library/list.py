@@ -15,3 +15,7 @@ def get_name():
 def get_error(site):
     site_list = get_site_list()
     return site_list[site]['Error']
+
+def get_title_search(site):
+    site_list = get_site_list()
+    return site_list[site]['Title']
