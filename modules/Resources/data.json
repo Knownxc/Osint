@@ -29,12 +29,6 @@
     "Profile": "https://github.com/{url}",
     "Main": "https://github.com"
   },
-  "Stack Overflow": {
-    "Error": "Stack Overflow",
-    "Title": false,
-    "Profile": "https://stackoverflow.com/{url}",
-    "Main": "https://stackoverflow.com"
-  },
   "TikTok": {
     "Error": "TikTok",
     "Title": false,
