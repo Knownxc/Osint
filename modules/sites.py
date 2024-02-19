@@ -15,14 +15,8 @@ def check_profile(input):
         soup = BeautifulSoup(response.text, 'html.parser')
         title_tags = soup.find_all('title')
         check_error = get_error(site)
-        title_search = get_title_search(site)
-        
-        if not title_search:
-            if check_error in response.text:
-                print(f"{site} - No Profile Found!")
-            else:
-                print(f"{site} - Profile Found: {link}")
-        elif title_tags == [] or any(check_error in tag.text.strip() for tag in title_tags):
+        if title_tags == [] or any(check_error in tag.text.strip() for tag in title_tags):
             print(f"{site} - No Profile Found!")
+            print(title_tags)
         else:
             print(f"{site} - Profile Found: {link}")

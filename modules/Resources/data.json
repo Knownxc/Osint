@@ -1,31 +1,26 @@
 {
   "Facebook": {
     "Error": "Facebook",
-    "Title": true,
     "Profile": "https://facebook.com/{url}",
     "Main": "https://facebook.com"
   },
   "Instagram": {
     "Error": "Instagram",
-    "Title": true,
     "Profile": "https://instagram.com/user/{url}",
     "Main": "https://instagram.com"
   },
   "YouTube": {
     "Error": "404 Not Found",
-    "Title": true,
     "Profile": "https://youtube.com/@{url}",
     "Main": "https://youtube.com"
   },
   "GitHub": {
     "Error": "None",
-    "Title": true,
     "Profile": "https://github.com/{url}",
     "Main": "https://github.com"
   },
   "Pinterest": {
     "Error": "",
-    "Title": true,
     "Profile": "https://pinterest.com/{url}",
     "Main": "https://pinterest.com"
   }
