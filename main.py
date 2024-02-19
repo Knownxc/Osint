@@ -1,8 +1,9 @@
-# quick error check/username check
-from error_check import *
+from modules.sites import profile_links, check_profile
 
-username = input("Enter the username you want to check: ")
-print(get_profile(username))
+def main():
+    input_url = input("Enter the profile URL: ")
+    profiles = profile_links(input_url)
+    check_profile(profiles)
 
-# Path: error_check.py
-
+if __name__ == "__main__":
+    main()

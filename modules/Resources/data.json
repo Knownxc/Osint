@@ -11,12 +11,6 @@
     "Profile": "https://instagram.com/user/{url}",
     "Main": "https://instagram.com"
   },
-  "Twitter": {
-    "Error": "Twitter",
-    "Title": false,
-    "Profile": "https://twitter.com/{url}",
-    "Main": "https://twitter.com"
-  },
   "YouTube": {
     "Error": "404 Not Found",
     "Title": true,
@@ -29,22 +23,10 @@
     "Profile": "https://github.com/{url}",
     "Main": "https://github.com"
   },
-  "TikTok": {
-    "Error": "TikTok",
-    "Title": false,
-    "Profile": "https://tiktok.com/@{url}",
-    "Main": "https://tiktok.com"
-  },
   "Pinterest": {
     "Error": "",
     "Title": true,
     "Profile": "https://pinterest.com/{url}",
     "Main": "https://pinterest.com"
-  },
-  "Snapchat": {
-    "Error": "Snapchat",
-    "Title": false,
-    "Profile": "https://snapchat.com/add/{url}",
-    "Main": "https://snapchat.com"
   }
 }
