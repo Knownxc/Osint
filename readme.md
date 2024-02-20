@@ -11,15 +11,14 @@ This project is a tool for conducting OSINT (Open Source Intelligence) investiga
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/osint-username-searcher.git`
-2. Install the required dependencies: `npm install`
+1. Clone the repository: `git clone https://github.com/Bovanlaarhoven/Osint.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
 
 ## Usage
-1. open cmd and type this in `pip install -r requirements.txt`
-2. Configure the search parameters in the `config.json` file.
-3. Run the application: `python3 main.py` or dubble click the main.py file to run it
-4. Enter the username you want to search for.
-5. View the search results displayed on the console/terminal.
+1. Configure the search parameters in the `config.json` file.
+2. Run the application: `python3 main.py` or double click the main.py file to run it.
+3. Enter the username you want to search for.
+4. View the search results displayed on the console/terminal.
 
 ## Contributing
 
@@ -27,7 +26,8 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 
 ### Faq
 
-- If the program crashes make sure to install the requirments.txt with this command: `pip install -r requirements.txt`, and make sure to run the command in the right directory/
+- If the program crashes make sure to install the requirments.txt with this command: `pip install -r requirements.txt`, and make sure to run the command in the right directory.
+
 
 ## License
 
